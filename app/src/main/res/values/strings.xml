@@ -18,7 +18,31 @@
     <string name="title_activity_main_quiz">Questions</string>
 
     <!-- Strings related to question/quiz -->
-    <string name="Q1">What country is Nairobi in?</string>
-    <string name="A1">Kenya</string>
-    <string name="H1">It is in East Africa</string>
+    <string-array name="Questions">
+        <item>What country is Nairobi located in?</item>
+        <item>What is the capital city of Thailand?</item>
+        <item>What is the most densely populated city in the world?</item>
+        <item>What state is New Haven, USA?</item>
+        <item>What is the capital of Latvia?</item>
+        <item>What country is Accra located in?</item>
+        <item>In what country do you find the Sydney Opera House?</item>
+    </string-array>
+    <string-array name="Answers">
+        <item>Kenya</item>
+        <item>Bangkok</item>
+        <item>Dhaka</item>
+        <item>Connecticut</item>
+        <item>Riga</item>
+        <item>Ghana</item>
+        <item>Australia</item>
+    </string-array>
+    <string-array name="Hints">
+        <item>A country in East Africa!</item>
+        <item>It starts with a "B".</item>
+        <item>It is in Bangladesh</item>
+        <item>Connect-the-dots</item>
+        <item>It rhymes with Piga</item>
+        <item>Known for its Gold Coast and Jellof Rice</item>
+        <item>It is a continent as well</item>
+    </string-array>
 </resources>

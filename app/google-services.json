@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "404736952073",
+    "firebase_url": "https://quizattempt.firebaseio.com",
+    "project_id": "quizattempt",
+    "storage_bucket": "quizattempt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404736952073:android:1ceeeb4f3744bb36",
+        "android_client_info": {
+          "package_name": "com.example.mokeira.quizattempt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404736952073-ibu1acs5cpenhn9gi4v9sot52lq435ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV4Rp6ARXrbW6C6-eITs5w8pMYf0OQc4Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

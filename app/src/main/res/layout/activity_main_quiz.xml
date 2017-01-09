@@ -15,27 +15,25 @@
 
 
     <TextView
-        android:layout_width="355dp"
-        android:id="@+id/textView8"
-        android:layout_weight="0.00"
-        android:text="@string/Q1"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:layout_height="39dp" />
+        android:layout_width="match_parent"
+        android:id="@+id/tvQuestion"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceSmallPopupMenu"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:layout_weight="0.00"
-        android:inputType="textShortMessage"
+        android:inputType="text"
         android:hint="Type Answer Here"
-        android:id="@+id/userAnswer"/>
+        android:id="@+id/tvUserAnswer"/>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="0.00"
+        android:layout_height="106dp"
         android:weightSum="1"
         android:layout_gravity="center">
 
@@ -44,7 +42,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/bSubmit"
-            android:layout_weight="0.36"/>
+            android:layout_weight="0.36"
+            android:onClick="onSubmitClick"/>
 
         <Button
             android:text="Cheat"
@@ -53,13 +52,42 @@
             android:id="@+id/bCheat"
             android:textAlignment="center"
             android:gravity="center"
-            android:layout_weight="0.47"/>
+            android:layout_weight="0.47"
+            android:onClick="onCheatClick"/>
 
         <Button
             android:text="Skip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/bSkip"
-            android:layout_weight="0.14"/>
+            android:layout_weight="0.14"
+            android:onClick="onSkipClick"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.00"
+        android:weightSum="1">
+
+        <TextView
+            android:text="You got it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCorrect"
+            android:layout_weight="0.10"
+            android:textSize="36sp"
+            android:textAlignment="center" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="50dp"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            android:id="@+id/nextbutton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:onClick="onNextClick"/>
     </LinearLayout>
 </LinearLayout>

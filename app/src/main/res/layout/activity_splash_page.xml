@@ -14,7 +14,6 @@
     android:textColor="#8C79AE"
     tools:context="com.example.mokeira.quizattempt.SplashPage"
     android:weightSum="1"
-    android:onClick="onSplashPageClick"
     android:orientation="vertical">
 
     <TextView
